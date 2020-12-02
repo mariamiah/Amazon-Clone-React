@@ -1,7 +1,9 @@
 const functions = require('firebase-functions');
 const express = require('express');
+
+require("dotenv").config()
 const cors = require('cors');
-const stripe = require('stripe')('sk_test_51HtmyZKt1pz6TsHguBy3reDvVP9sS2ZlXPY1fgPMiCivcDaaFBP74cN0dyXDQN60TovhiUKzdXjoY6My48H9K2kC00S0bKlly0');
+const stripe = require('stripe')(process.env.STRIPE_SECRET);
 
 // API
 //App config
