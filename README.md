@@ -19,3 +19,4 @@ Firebase cloud functions to connect to stripe inorder to process payments
 - Checkout Page
 - Cloud Functions to process the stripe payment(serverless)
 - Firestore for real time database
+- Express App hosted on a cloud function
